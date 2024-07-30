@@ -28,5 +28,6 @@ span {
 }
 
 div, img {
-    position: center;
+    position: sticky;
+    margin-top: 40;
 }

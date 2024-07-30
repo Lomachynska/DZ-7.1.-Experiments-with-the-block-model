@@ -6,3 +6,26 @@ span {
 #Main {
     color: rgb(102, 7, 83);
 }
+
+#imag1 {
+    box-sizing: border-box;
+    width: 400px;
+    padding: 50px;
+    border: 5px solid black;
+    position: relative;
+    left: 20px; top: 10px;
+}
+
+#imag2 {
+    box-sizing: content-box;
+    width: 400px;
+    padding: 10px;
+    border: 5px solid black;
+    position: relative;
+    left: 40px; top: 10px;
+}
+
+div, img {
+    position: sticky;
+    margin-top: 40;
+}
